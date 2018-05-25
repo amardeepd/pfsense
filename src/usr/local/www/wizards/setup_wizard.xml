@@ -24,7 +24,7 @@
 <totalsteps>10</totalsteps>
 <step>
 	<id>1</id>
-	<title>pfSense Setup</title>
+	<title>HUGHESIN300 Setup</title>
 	<disableheader>true</disableheader>
 	<description>This wizard will provide guidance through the initial configuration of pfSense.&lt;br/&gt;&lt;br/&gt; The wizard may be stopped at any time by clicking the logo image at the top of the screen.</description>
 	<fields>
@@ -37,29 +37,6 @@
 		unlink_if_exists("{$g['conf_path']}/trigger_initial_wizard");
 		unlink_if_exists("{$g['conf_path']}/assign_complete");
 	</stepbeforeformdisplay>
-</step>
-<step>
-	<id>2</id>
-	<title>Netgate Global Support is available</title>
-	<disableheader>true</disableheader>
-	<description>
-    pfSense firewalls are known for their reliability, manageability, and flexibility.
-    &lt;br/&gt; &lt;br/&gt;
-    You know that network security is crucial, now more than ever.
-    Support provides peace-of-mind and help if you need it.
-    &lt;br/&gt; &lt;br/&gt;
-    Netgate offers 24/7/365 world-class support subscriptions that cover every need, from SOHO to Enterprise.
-    &lt;br/&gt; &lt;br/&gt;
-    &lt;a href="https://netgate.com/more-support-info/" target="_blank"&gt;
-    &lt;span class="btn btn-info" "&gt;Learn More &lt;/button&gt;&lt;/a&gt;
-    &lt;br/&gt; &lt;br/&gt;
-  </description>
-	<fields>
-		<field>
-			<name>Next</name>
-			<type>submit</type>
-		</field>
-	</fields>
 </step>
 <step>
 	<id>3</id>
