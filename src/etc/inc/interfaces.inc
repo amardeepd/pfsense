@@ -2094,8 +2094,8 @@ EOD;
 		}
 
 		$mpdconf .= <<<EOD
-	set link disable chap pap
-	set link accept chap pap eap
+	set link deny chap pap chap-md5 chap-msv1 chap-msv2 eap
+	set link accept pap
 	set link disable incoming
 
 EOD;
