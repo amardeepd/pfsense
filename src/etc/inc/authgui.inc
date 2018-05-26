@@ -273,7 +273,7 @@ function display_login_form() {
 	if (isset($config['system']['webgui']['loginshowhost'])) {
 		$loginbannerstr = sprintf(gettext('%1$s.%2$s'), htmlspecialchars($config['system']['hostname']), htmlspecialchars($config['system']['domain']));
 	} else {
-		$loginbannerstr = sprintf(gettext('Login to %1$s'), $g['product_name']);
+		$loginbannerstr = sprintf(gettext('LOGIN TO %1$s'), $g['product_name']);
 	}
 
 	$loginautocomplete = isset($config['system']['webgui']['loginautocomplete']) ? '' : 'autocomplete="off"';
